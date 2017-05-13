@@ -17,6 +17,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 #use font awesome library for icons
 gem 'font-awesome-sass', '~> 4.7.0'
 
+gem 'devise', '~> 4.2'
+
 #Use postgresql as the database for production
 group :production do
 	gem 'pg'
